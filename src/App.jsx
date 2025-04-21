@@ -1,9 +1,9 @@
-import SodaMarkUp from './SodaMarkUp/SodaMarkUp'
+import Slider from './Components/Slider'
 
 function App() {
   return (
     <>
-      <SodaMarkUp />
+      <Slider />
     </>
   )
 }
