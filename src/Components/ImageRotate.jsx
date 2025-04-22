@@ -1,6 +1,6 @@
-import '../assets/css/slider.css'
+import '../assets/css/image_rotate.css'
 
-function Slider() {
+function ImageRotate() {
     return (
         <>
             <div className='banner'>
@@ -30,4 +30,4 @@ function Slider() {
     )
 }
 
-export default Slider
+export default ImageRotate

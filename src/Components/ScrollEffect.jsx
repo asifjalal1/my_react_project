@@ -1,4 +1,4 @@
-import '../assets/css/scroll_effect.css'
+import '../assets/css/scroll_effect.css';
 
 function ScrollEffect() {
   return (

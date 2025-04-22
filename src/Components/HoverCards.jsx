@@ -1,4 +1,4 @@
-import '../assets/css/hover_card.css'
+import '../assets/css/hover_card.css';
 
 function HoverCards() {
   return (

@@ -1,4 +1,4 @@
-import '../assets/css/sodamarkup.css'
+import '../assets/css/sodamarkup.css';
 // import logo6 from '../assets/sodamarkup/logo6.png';
 // import logo6 from '../assets/sodamarkup/bird2.png';
 // import logo6 from '../assets/sodamarkup/girl.png';
