@@ -4,15 +4,15 @@ function HoverCards() {
   return (
     <>
         <div className="list">
-            <div className="item"><img src="./images/logo6.png" alt="Logo" /></div>
-            <div className="item"><img src="./images/logo3.png" alt="Logo" /></div>
-            <div className="item"><img src="./images/logo2.png" alt="Logo" /></div>
-            <div className="item"><img src="./images/birdgirl.png" alt="Logo" /></div>
-            <div className="item"><img src="./images/images.jpg" alt="Logo" /></div>
-            <div className="item"><img src="./images/logo1.jpeg" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo1.jpg" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo2.jpg" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo3.jpg" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo4.jpg" alt="Logo" /></div>
             <div className="item"><img src="./images/logo5.jpg" alt="Logo" /></div>
-            <div className="item"><img src="./images/logo4.jpeg" alt="Logo" /></div>
-            <div className="item"><img src="./images/birdcouple.png" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo6.jpg" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo7.jpg" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo8.jpeg" alt="Logo" /></div>
+            <div className="item"><img src="./images/logo9.jpeg" alt="Logo" /></div>
         </div>
     </>
   )

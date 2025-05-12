@@ -1,0 +1,36 @@
+.clip-img{
+    width: 500px;
+    height: 500px;
+}
+.clip-image{
+    height: 500px;
+    width: 500px;
+    margin: 20px 0px;
+    background-color: aqua;
+}
+
+.circle{
+    clip-path: circle(100px at center);
+    /* clip-path: circle(100px at left bottom); */
+}
+.ellipse{
+    /*  first values are for circle and second are for movement */
+    clip-path: ellipse(30% 50% at 50% 50%);
+    /* clip-path: ellipse(50% 50% at 50% 50%); // center */
+}
+
+.inset{
+    clip-path: inset(20px 30px 40px 10px round 20px 20px);
+}
+
+.polygon{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 50% 50%);
+}
+
+.path{
+    clip-path: path("M 50,100 L 200,100 L 220,80 L 220,60 L 240,40 L 300,40 L 320,60 L 320,480 L 300,500 L 50,500 L 30,480 L 30,120 L 50,100  Z");
+}
+
+.path2{
+    clip-path: path("M 50,100 L 200,100 A 20,20 0,0,0 220,80 L 220,60 A 20,20 0,0,1 240,40 L 300,40 A 20,20 0,0,1 320,60 L 320,480 A 20,20 0,0,1 300,500 L 50,500 A 20,20 0,0,1 30,480 L 30,120 A 20,20 0,0,1 50,100  Z");
+}
