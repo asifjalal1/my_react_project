@@ -5,9 +5,6 @@ function ScrollEffect() {
     <>
         <div className="container">
           <section className='grid grid-1'>
-            <div className='clip-image'>
-              <img src="./images/birdcouple.png" alt="Logo" className='clip-img'/>
-            </div>
             <figure>
               <img src="./images/birdcouple.png" alt="Logo" className='image1 autoShow' />
             </figure>
