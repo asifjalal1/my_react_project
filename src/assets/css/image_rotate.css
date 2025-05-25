@@ -54,14 +54,14 @@
 }
 .banner .content h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16rem;
-    line-height: 1rem;
+    font-size: 8rem;
+    line-height: 0.2rem;
     color: #25283b;
 }
 .banner .content h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    max-width: 200px;
+    max-width: 50%;
     position: relative;
 }
 .banner .content h1::after{

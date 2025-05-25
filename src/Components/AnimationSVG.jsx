@@ -35,12 +35,14 @@ function AnimationSVG() {
       }, []);
     return (
         <>
-            <div className="container mt-0" onMouseEnter={hamburgerHoverEvent} onClick={hamburgerClickEvent}>
-                <svg className='hamburger' xmlns="http://ww3.org/200/svg" viewBox='0 0 100 100'> 
-                    <line className='line-one line-items' x1="25" y1="42" x2="75" y2="42" fill='none' stroke='#000' strokeMiterlimit={10} strokeWidth={2}/>
-                    <line className='line-two line-items' x1="25" y1="48" x2="75" y2="48" fill='none' stroke='#000' strokeMiterlimit={10} strokeWidth={2}/>
-                    <line className='line-three line-items' x1="25" y1="54" x2="75" y2="54" fill='none' stroke='#000' strokeMiterlimit={10} strokeWidth={2}/>
-                </svg>
+            <div className="flex justify-center">
+                <div className="w-100" onMouseEnter={hamburgerHoverEvent} onClick={hamburgerClickEvent}>
+                    <svg className='hamburger' xmlns="http://ww3.org/200/svg" viewBox='0 0 100 100'> 
+                        <line className='line-one line-items' x1="25" y1="42" x2="75" y2="42" fill='none' stroke='#000' strokeMiterlimit={10} strokeWidth={2}/>
+                        <line className='line-two line-items' x1="25" y1="48" x2="75" y2="48" fill='none' stroke='#000' strokeMiterlimit={10} strokeWidth={2}/>
+                        <line className='line-three line-items' x1="25" y1="54" x2="75" y2="54" fill='none' stroke='#000' strokeMiterlimit={10} strokeWidth={2}/>
+                    </svg>
+                </div>
             </div>
         </>
     )

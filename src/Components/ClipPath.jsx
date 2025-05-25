@@ -3,7 +3,7 @@ import '../assets/css/clip-path.css';
 function clipPath() {
     return (
         <>
-            <div className="container">
+            <div className="">
                 <section className='grid grid-1'>
                     <div className='clip-image circle'>
                         <img src="./images/birdcouple.png" alt="Logo" className='clip-img' />

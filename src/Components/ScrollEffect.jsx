@@ -3,12 +3,12 @@ import '../assets/css/scroll_effect.css';
 function ScrollEffect() {
   return (
     <>
-        <div className="container">
+        <div className="w-[100%]">
           <section className='grid grid-1'>
-            <figure>
-              <img src="./images/birdcouple.png" alt="Logo" className='image1 autoShow' />
+            <figure className=''>
+              <img src="./images/birdcouple.png" alt="Logo" className='image1 autoShow'  width={100} height={200}/>
             </figure>
-            <figure className='figure2'>
+            <figure className='figure2 mt-10'>
               <img src="./images/logo03.jpeg" alt="Logo" className='image2 autoRotate' />
             </figure>
             <h2 className='autoShow'>Introduction</h2>
@@ -60,7 +60,7 @@ function ScrollEffect() {
             </div>
           </section>
           <section className='section3 autoBlur'>
-              <img src="./images/wal98.jpg" alt="Logo" className='image3' />
+              <img src="./images/wal98.jpg" alt="Logo" className='image3' width={50}/>
               <p>
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
