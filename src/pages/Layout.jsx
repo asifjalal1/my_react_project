@@ -20,6 +20,9 @@ const Layout = () => {
           <li>
             <Link to="/clip-path">ClipPath</Link>
           </li>
+          <li>
+            <Link to="/animation-svg">Animation svg</Link>
+          </li>
         </ul>
       </nav>
 
