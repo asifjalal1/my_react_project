@@ -5,9 +5,10 @@ import ScrollEffect from './Components/ScrollEffect';
 import ImageRotate from './Components/ImageRotate';
 import ClipPath from './Components/ClipPath';
 import AnimationSVG from './Components/AnimationSVG';
+import Slider from './Components/Slider';
 // import DashboardProfileLogo from './Components/DashboardProfileLogo';
 import Layout from "./pages/Layout";
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="image-rotate" element={<ImageRotate />} />
             <Route path="clip-path" element={<ClipPath />} />
             <Route path="animation-svg" element={<AnimationSVG />} />
+            <Route path="slider" element={<Slider />} />
             <Route path="*" element={<Layout />} />
           </Route>
         </Routes>

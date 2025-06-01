@@ -1,7 +1,7 @@
-.main-div{
+.main_div{
     --sb-width: 5rem;
 } 
-.main-div.sb-expanded{
+.main_div.sb_expanded{
     --sb-width: 12.5rem;
 }
 aside{
@@ -64,7 +64,7 @@ nav a.active, nav a:hover, nav a:focus-visible{
     }
 }
 
-.sb-expanded nav a .title{
+.sb_expanded nav a .title{
     opacity: 1;
     visibility: visible;
     transition: 
@@ -72,7 +72,7 @@ nav a.active, nav a:hover, nav a:focus-visible{
         visibility 1s ease-in-out;
 }
 
-.sb-expanded aside .toggle-icon{
+.sb_expanded aside .toggle_icon{
     rotate: 180deg;
 }
 
@@ -86,4 +86,9 @@ main{
     main{
         margin-left: var(--sb-width);
     }
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }

@@ -1,22 +1,23 @@
-import '../assets/css/dashboard_profile_logo.css';
+// import '../assets/css/dashboard_profile_logo.css';
+import Styles from '../assets/css/DashboardProfileLogo.module.css';
 import { Link } from "react-router-dom";
 
 function DashboardProfileLogo() {
     return (
         <>
-            <nav className='primary-nav' aria-label='primary navigation'>
-                <ul className='order-list'>
+            <nav className={Styles.primary_nav} aria-label='primary navigation'>
+                <ul className={Styles.order_list}>
                     <li>
                         <Link to="/dashborad">Dashboard</Link>
                     </li>
                     <li>
-                        <button popoverTarget='profile-menu' className='user-button'>
-                            <img src="./images/logo1.jpeg" alt="Logo" className='dashboard-logo' />
+                        <button popoverTarget='profile-menu' className={Styles.user_button}>
+                            <img src="./images/logo1.jpeg" alt="Logo" className={Styles.dashboard_logo} />
                         </button>
                     </li>
                 </ul>
             </nav>
-            <div popover="true" id='profile-menu' className='profile-menu'>
+            <div popover="true" id='profile-menu' className={Styles.profile_menu}>
                 <h5>
                     Asif Jalal
                 </h5>
