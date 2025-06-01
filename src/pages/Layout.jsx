@@ -7,10 +7,14 @@ import Backup from '@mui/icons-material/Backup';
 import Dining from '@mui/icons-material/Dining';
 import Dry from '@mui/icons-material/Dry';
 import Fastfood from '@mui/icons-material/Fastfood';
+import Slider from '../Components/Slider';
 import { useState } from "react";
 
 const Layout = () => {
   const  [toggleclass, settoggleclass] = useState(true);
+  // const openNewTab = () => {
+  //   window.open(`${window.location.origin}/Slider`, '_blank');
+  // };
   return (
     <>
       <div className={`${Styles.main_div} ${toggleclass ? Styles.sb_expanded : ''}`}>

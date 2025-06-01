@@ -23,9 +23,10 @@ function App() {
             <Route path="image-rotate" element={<ImageRotate />} />
             <Route path="clip-path" element={<ClipPath />} />
             <Route path="animation-svg" element={<AnimationSVG />} />
-            <Route path="slider" element={<Slider />} />
             <Route path="*" element={<Layout />} />
           </Route>
+          {/* Route without layout — opens in new tab */}
+          <Route path="slider" element={<Slider />} />
         </Routes>
       </BrowserRouter>
     </>
