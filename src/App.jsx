@@ -6,6 +6,8 @@ import ImageRotate from './Components/ImageRotate';
 import ClipPath from './Components/ClipPath';
 import AnimationSVG from './Components/AnimationSVG';
 import Slider from './Components/Slider';
+import SimpleDashboard from './Components/SimpleDashboard'
+import AdvanceDashboard from './Components/AdvanceDashboard'
 // import DashboardProfileLogo from './Components/DashboardProfileLogo';
 import Layout from "./pages/Layout";
 // import './App.css';
@@ -27,6 +29,8 @@ function App() {
           </Route>
           {/* Route without layout — opens in new tab */}
           <Route path="slider" element={<Slider />} />
+          <Route path="simple-dashboard" element={<SimpleDashboard />} />
+          <Route path="advance-dashboard" element={<AdvanceDashboard />} />
         </Routes>
       </BrowserRouter>
     </>

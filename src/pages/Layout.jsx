@@ -78,6 +78,22 @@ const Layout = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/simple-dashboard" className={useMatch('/simple-dashboard') ? Styles.active : ''}>
+                  <span className={Styles.flex}>
+                    <Fastfood />
+                    <span className={Styles.title}>Simple Dashboard</span>
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/advance-dashboard" className={useMatch('/advance-dashboard') ? Styles.active : ''}>
+                  <span className={Styles.flex}>
+                    <Fastfood />
+                    <span className={Styles.title}>Advance Dashboard</span>
+                  </span>
+                </Link>
+              </li>
+              <li>
                 <a href="#" onClick={(e)=>{
                   e.preventDefault();
                   settoggleclass(() => !toggleclass);
