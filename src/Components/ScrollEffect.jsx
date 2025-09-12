@@ -1,21 +1,22 @@
-import '../assets/css/scroll_effect.css';
+// import '../assets/css/scroll_effect.css';
+import Styles from '../assets/css/ScrollEffect.module.css';
 
 function ScrollEffect() {
   return (
     <>
-        <div className="container">
-          <section className='grid grid-1'>
-            <figure>
-              <img src="./images/birdcouple.png" alt="Logo" className='image1 autoShow' />
+        <div className="w-[100%]">
+          <section className={`${Styles.grid} grid-1`}>
+            <figure className=''>
+              <img src="./images/birdcouple.png" alt="Logo" className={`${Styles.image1} ${Styles.autoShow}`}  width={100} height={200}/>
             </figure>
-            <figure className='figure2'>
-              <img src="./images/logo03.jpeg" alt="Logo" className='image2 autoRotate' />
+            <figure className={`${Styles.figure2} mt-10`}>
+              <img src="./images/logo03.jpeg" alt="Logo" className={`${Styles.image2} ${Styles.autoRotate}`} />
             </figure>
-            <h2 className='autoShow'>Introduction</h2>
+            <h2 className={Styles.autoShow}>Introduction</h2>
           </section>
-          <section className='flex'>
-            <div className='first-div autoShow'>
-              <img src="./images/wal55.jpg" alt="Logo" className='image3' />
+          <section className={Styles.flex}>
+            <div className={`${Styles.first_div} ${Styles.autoShow}`}>
+              <img src="./images/wal55.jpg" alt="Logo" className={Styles.image3} />
               <p>
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
@@ -36,7 +37,7 @@ function ScrollEffect() {
                 Here's a mockup of the desired outcome
               </p>
             </div>
-            <div className='second-div autoShow'>
+            <div className={`${Styles.second_div} ${Styles.autoShow}`}>
               <p>
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
@@ -56,11 +57,11 @@ function ScrollEffect() {
 
                 Here's a mockup of the desired outcome
               </p>
-              <img src="./images/birds.png" alt="Logo" className='image4' />
+              <img src="./images/birds.png" alt="Logo" className={Styles.image4} />
             </div>
           </section>
-          <section className='section3 autoBlur'>
-              <img src="./images/wal98.jpg" alt="Logo" className='image3' />
+          <section className={`${Styles.section3} ${Styles.autoBlur}`}>
+              <img src="./images/wal98.jpg" alt="Logo" className={Styles.image3} width={50}/>
               <p>
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
@@ -81,9 +82,9 @@ function ScrollEffect() {
                 Here's a mockup of the desired outcome
               </p>
           </section>
-          <section className='flex'>
-            <div className='first-div grid autoShow'>
-              <img src="./images/birdgirl.png" alt="Logo" className='image5' />
+          <section className={Styles.flex}>
+            <div className={`${Styles.first_div} ${Styles.autoShow} ${Styles.grid}`}>
+              <img src="./images/birdgirl.png" alt="Logo" className={Styles.image5} />
               <p>
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
@@ -104,7 +105,7 @@ function ScrollEffect() {
                 Here's a mockup of the desired outcome
               </p>
             </div>
-            <div className='second-div grid autoShow autoShow'>
+            <div className={`${Styles.second_div} ${Styles.autoShow} ${Styles.grid}`}>
               <p>
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
@@ -115,7 +116,7 @@ function ScrollEffect() {
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
               </p>
-              <img src="./images/birdcouple.png" alt="Logo" className='image6 autoShow' />
+              <img src="./images/birdcouple.png" alt="Logo" className={`${Styles.image6} ${Styles.autoShow}`} />
               <p>
                 I had an inner container set to fixed width, but since I cannot set the value of the width, I played with the size of its inner elements (in this case, it was an icon set to 2 width) and the inner padding (set to 4 horizontal) to achieve the desired width of the bar.
 
@@ -128,7 +129,7 @@ function ScrollEffect() {
                 Here's a mockup of the desired outcome
               </p>
             </div>
-            <div className='third-div grid autoShow'>
+            <div className={`${Styles.third_div} ${Styles.autoShow} ${Styles.grid}`}>
               <p>
                 In the above image, I wanted to have a thin vertical bar of a certain width and a certain background color to indicate either a certain status or other color-coded states of things (levels, goals, roles, etc.)
 
@@ -148,12 +149,11 @@ function ScrollEffect() {
 
                 Here's a mockup of the desired outcome
               </p>
-              <img src="./images/birdgirl.png" alt="Logo" className='image7 autoShow' />
+              <img src="./images/birdgirl.png" alt="Logo" className={`${Styles.image7} ${Styles.autoShow}`} />
             </div>
           </section>
         </div>
     </>
   )
 }
-
 export default ScrollEffect
